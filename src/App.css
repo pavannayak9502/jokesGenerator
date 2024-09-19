@@ -1,0 +1,51 @@
+body{
+    background-image: url("../src/Images/cloudsMoving.gif");
+}
+
+.forSpace{
+    margin-top: 100px;
+}
+
+.jokesPage{
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    background-color: green;
+    padding: 1rem;
+    border-radius: 20px;
+    margin: auto;
+}
+h3{
+    color:deeppink;
+}
+#para1{
+    color: wheat;
+}
+#displayJoke{
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+button{
+    box-sizing: border-box;
+    padding: 1rem;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #ff0000;
+    color: white;
+}
+
+@media(max-width:420px){
+    body{
+        font-size: x-large;
+    }
+    .forSpace{
+        margin: 50% 0px;
+    }
+};
